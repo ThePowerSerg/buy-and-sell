@@ -10,7 +10,7 @@ import { NewListingPage } from './new-listing-page/new-listing-page';
 export const routes: Routes = [
     {path: 'listings', component : ListingsPage, pathMatch: 'full'},
     {path:'listings/:id', component : ListingDetailPage, pathMatch: 'full'},
-    {path: 'contact', component : ContactPage, pathMatch: 'full'},
+    {path: 'contact/:id', component : ContactPage, pathMatch: 'full'},
     {path:'listings/:id', component : ListingDetailPage, pathMatch: 'full'},
     {path:'edit-listing/:id', component : EditListingPage, pathMatch: 'full'},
     {path:'my-listings', component : MyListingsPage, pathMatch: 'full'},
